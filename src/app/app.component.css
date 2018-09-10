@@ -1,4 +1,31 @@
-.canvas {
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-family: Tahoma;
   width: 800px;
+  border: 1px solid #aeaeae;
+  background-image: linear-gradient(to right, white, violet)
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 12px;
+}
+
+.proc-props {
+  border: 1px solid #aeaeae;
+  margin-bottom: 5px;
+  padding: 5px;
+  background: white;
+}
+
+.diagram {
   height: 600px;
+  border: 1px solid #aeaeae;
+  background: white;
 }
